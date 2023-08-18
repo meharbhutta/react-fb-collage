@@ -1,0 +1,69 @@
+{
+  "name": "react-fb-collage",
+  "version": "0.5.0",
+  "description": "Image Grid or Collage component for React",
+  "main": "built/index.js",
+  "types": "built/index.d.ts",
+  "scripts": {
+    "prepare": "rimraf built && tsc",
+    "start": "tsc -w --outDir demo/built",
+    "release:major": "node ./changelog --major && npm version major && git push origin && git push origin --follow-tags",
+    "release:minor": "node ./changelog --minor && npm version minor && git push origin && git push origin --follow-tags",
+    "release:patch": "node ./changelog --patch && npm version patch && git push origin && git push origin --follow-tags",
+    "release:version": "node ./changelog --version $VERSION && git push origin && git push origin --follow-tags",
+    "validate": "yarn flow"
+  },
+  "keywords": [
+    "react",
+    "react component",
+    "react-component",
+    "react-collage",
+    "react collage",
+    "react-fb-collage",
+    "react",
+    "react image grid",
+    "react",
+    "ui",
+    "image",
+    "collage",
+    "grid"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/meharbhutta/react-fb-collage.git"
+  },
+  "author": "Muhammad Mehar <meharbhutta@gmail.com> (https://twitter.com/meharbhutta)",
+  "license": "MIT",
+  "licenseFilename": "LICENSE",
+  "readmeFilename": "README.md",
+  "bugs": {
+    "url": "https://github.com/meharbhutta/react-fb-collage/issues"
+  },
+  "homepage": "https://github.com/meharbhutta/react-fb-collage#readme",
+  "peerDependencies": {
+    "react": "*"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "8.1.0",
+    "@commitlint/config-conventional": "8.1.0",
+    "@types/react": "*",
+    "flow-bin": "^0.105.2",
+    "generate-changelog": "1.8.0",
+    "husky": "3.0.3",
+    "idx": "2.5.6",
+    "minimist": "1.2.0",
+    "pre-commit": "1.2.2",
+    "prettier": "^1.18.2",
+    "react": "*",
+    "rimraf": "2.6.3",
+    "tslint": "^5.8.0",
+    "tslint-config-prettier": "^1.13.0",
+    "typescript": "^2.9.2",
+    "simple-git": "1.124.0"
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -e $HUSKY_GIT_PARAMS"
+    }
+  }
+}
