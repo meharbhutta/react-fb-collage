@@ -16,7 +16,7 @@ Image Grid or Collage component for React
 
 ## Show Case
 
-![]()
+![](https://github.com/meharbhutta/react-fb-collage/blob/main/demo.PNG)
 
 ## Getting Started
 
