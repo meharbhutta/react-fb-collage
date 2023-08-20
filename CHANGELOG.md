@@ -1,3 +1,9 @@
+#### 0.5.7-5 (2023-08-20)
+
+##### Bug Fixes
+
+*  readme update ([1ea40630](https://github.com/meharbhutta/react-fb-collage/commit/1ea40630447f3d8936cdd375ec11eb4555c6313d))
+
 #### 0.5.6-4 (2023-08-20)
 
 ##### Bug Fixes
