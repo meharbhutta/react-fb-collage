@@ -10,7 +10,7 @@ Image Grid or Collage component for React
 
 ## NPM
 
-- stable release version: ![version](https://img.shields.io/badge/version-0.5.0-blue.svg?cacheSeconds=2592000)
+- stable release version: ![version](https://img.shields.io/badge/version-0.5.3-blue.svg?cacheSeconds=2592000)
 - package downloads: ![downloads](https://img.shields.io/badge/downloads-22%2Fweek-brightgreen.svg?cacheSeconds=2592000)
 - [![MIT license](http://img.shields.io/badge/license-MIT-brightgreen.svg)](http://opensource.org/licenses/MIT)
 
@@ -95,10 +95,22 @@ export default App;
 After clone this repo, then:
 
 ```bash
+cd react-fb-collage
+```
+
+### Step 1,
+
+```bash
+npm install
+```
+
+### Step 3, choose demo
+
+```bash
 cd demo
 ```
 
-### Step 2, run demo
+### Step 4, run demo
 
 ```bash
 npm install
